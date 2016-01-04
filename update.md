@@ -22,7 +22,7 @@ Die neue Version von ROXID benötigt evtl. zusätzliche Datenbankeinträge. Gehe
 Wenn Sie in der Vergangenheit ein Upgrade ausgelassen haben, führen Sie bitte alle nötigen SQL-Updates nacheinander durch .
 
 ### Beispiel
-Sie haben ROXID v1.8 installiert, und möchten auf ROXID 2.0 upgraden. Dann müssen Sie, in dieser Reihenfolge, folgende Dateien ausführen: `update-v1.8-to-v1.9.sql`, und dann `update-v1.9-to-v2.0`.
+Sie haben ROXID *v3.0* installiert, und möchten auf ROXID *v3.2* upgraden. Dann müssen Sie, in dieser Reihenfolge, folgende Dateien ausführen: `update-3.0-to-v3.1.sql`, und dann `update-v3.1-to-v3.2`.
 Klicken Sie zum Ausführen einer Datei auf `Update starten` und warten Sie, bis alle SQL-Abfragen abgeschlossen wurden.
 
 Zum Schluss bitte einmal `VIEWS jetzt updaten` auf derselben Seite ausführen.

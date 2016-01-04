@@ -9,9 +9,9 @@ Aktivieren Sie das Child-Theme unter `Erweiterungen → Themes → ROXID Child-T
 
 ## Anpassung der Template-Dateien
 
-Die Template-Dateien des Child-Themes finden sie unter `application/views/roxid_mod`. Wenn Sie Änderungen an einer Template-Datei durchführen möchten, kopieren Sie die entsprechende Datei aus dem Original-Template (`application/views/roxid*x*/`) in den oben genannten Ordner und führen Sie alle Änderungen in dieser Datei durch.
+Die Template-Dateien des Child-Themes finden sie unter `application/views/roxid_mod`. Wenn Sie Änderungen an einer Template-Datei durchführen möchten, kopieren Sie die entsprechende Datei aus dem Original-Template (`application/views/roxidx/`) in den oben genannten Ordner und führen Sie alle Änderungen in dieser Datei durch.
 
-**Beispiel**: Sie wollen an der Startseite Ihres Shops etwas ändern. Dann kopieren Sie die Datei `application/views/roxid*x*/tpl/page/shop/start.tpl` nach `application/views/roxid_mod/tpl/page/shop/start.tpl` und editieren diese Datei.
+**Beispiel**: Sie wollen an der Startseite Ihres Shops etwas ändern. Dann kopieren Sie die Datei `application/views/roxidx/tpl/page/shop/start.tpl` nach `application/views/roxid_mod/tpl/page/shop/start.tpl` und editieren diese Datei.
 
 
 
@@ -43,7 +43,7 @@ Alle Pfadangaben hier sind relativ zum `out/roxid_mod/`-Verzeichnis.
 
 ## Anpassung des Farbschemas
 
-Das Farbschema können Sie am einfachsten über die [LESS-Variablen von Twitter Bootstrap](http://getbootstrap.com/customize/#less-variables) anpassen. Fügen Sie die Variablen, die Sie überschreiben möchten, einfach der `out/roxid_mod/src/css/bootstrap_own_variables.less` hinzu. Die komplette Liste der Bootstrap-Variablen finden Sie in der Variablen-Datei von Bootstrap (`out/roxid*x*/src/css/bootstrap/less/variables.less`).
+Das Farbschema können Sie am einfachsten über die [LESS-Variablen von Twitter Bootstrap](http://getbootstrap.com/customize/#less-variables) anpassen. Fügen Sie die Variablen, die Sie überschreiben möchten, einfach der `out/roxid_mod/src/css/bootstrap_own_variables.less` hinzu. Die komplette Liste der Bootstrap-Variablen finden Sie in der Variablen-Datei von Bootstrap (`out/roxidx/src/css/bootstrap/less/variables.less`).
 
 **Beispiel**: Wenn Sie die Farbe der *In den Warenkorb*-Buttons auf rot ändern möchten, müssen Sie folgende Zeile hinzufügen:
 

@@ -1,6 +1,6 @@
 # Troubleshooting - Die häufigsten Fehler
 
-## Mein Shop / mein OXID-Backend bleibt komplett weiß
+## Der Shop / das OXID-Backend bleibt komplett weiß
 
 Es handelt sich wahrscheinlich um ein Problem mit der Lizenzdatei `license.txt`. Stellen Sie bitte sicher, dass
 * die `license.txt` im Hauptverzeichnis Ihres Shops liegt und
@@ -23,4 +23,4 @@ Dies ist ein sicheres Zeichen, dass die Datenbankeinträge, in denen ROXID die K
 
 ## Es werden keine Artikel- und Kategorie-Bilder angezeigt
 
-Dies deutet auf ein Problem mit der Bildgenerierung hin. Bitte überprüfen Sie, dass Sie die Änderung an der `.htaccess` korrekt durchgeführt haben.
+Dies deutet auf ein Problem mit der Bildgenerierung hin. Überprüfen Sie, dass Sie die Änderung an der `.htaccess` korrekt durchgeführt haben.

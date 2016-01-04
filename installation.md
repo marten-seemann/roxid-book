@@ -6,7 +6,7 @@ Es ist zu empfehlen, ROXID zuerst auf einem Testsystem zu installieren, bevor Si
 ## Ihre Lizenz
 ROXID benötigt den IonCube Loader. Viele Hoster haben diesen schon standardmäßig vorinstalliert, sollte dies nicht der Fall sein, können Sie ihn [hier herunterladen](http://www.ioncube.com/loaders.php).
 
-Das Installationspaket enthält den gesamten Quellcode von ROXID. Ihre Lizenzdatei `license.txt` sollten Sie bereits per Email erhalten haben. Legen Sie diese Datei ins Hauptverzeichnis des Shops.
+Ihre Lizenzdatei `license.txt` sollten Sie bereits per Email erhalten haben. Legen Sie diese Datei ins Hauptverzeichnis des Shops.
 
 ## zu kopierende Dateien
 Kopieren Sie den Ordner `copy_this_PHP5.X` mit allen Unterordnern direkt in das Hauptverzeichnis Ihres Shops. Wählen Sie dabei bitte den Ordner entsprechend der PHP-Version, die auf Ihrem Server installiert ist, aus. Für alte IonCube-Versionen unter PHP 5.3 kann es evtl. nötig sein, die Installationsdateien aus dem Ordner `copy_this_PHP5.3_old_ioncube` zu verwenden.
