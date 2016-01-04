@@ -9,5 +9,6 @@
 * [Einstellungen](einstellungen.md)
 * [Anpassungen](anpassungen.md)
   * [Verwendung von Grunt](anpassungen/grunt.md)
+  * [Anpassen der Icons](anpassungen/icons.md)
   * [Troubleshooting](anpassungen/troubleshooting.md)
 * [Hilfe & Support](hilfe.md)
