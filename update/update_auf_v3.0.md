@@ -10,11 +10,15 @@ Die Datei `core/utils/roxid_getimg.php` wird jetzt nicht mehr benötigt. Bitte l
 ## .htaccess-Anpassungen
 Ersetzen Sie in der `.htaccess` diese Zeile
 
-    RewriteRule (\.jpe?g|\.gif|\.png)$ core/utils/roxid_getimg.php
+```apacheconf
+RewriteRule (\.jpe?g|\.gif|\.png)$ core/utils/roxid_getimg.php
+```
 
 durch
 
-    RewriteRule (\.jpe?g|\.gif|\.png)$ modules/roxid/utils/roxid_getimg.php
+```apacheconf
+RewriteRule (\.jpe?g|\.gif|\.png)$ modules/roxid/utils/roxid_getimg.php
+```
 
 ## umbenannte Farbschemata
 In ROXID v3.0 wurden eine Reihe neue Farbschemata hinzugefügt. Die drei bisherigen Farbschemata (`blue`, `orange` und `white`) wurden umbenannt:

@@ -47,8 +47,9 @@ Das Farbschema können Sie am einfachsten über die [LESS-Variablen von Twitter 
 
 **Beispiel**: Wenn Sie die Farbe der *In den Warenkorb*-Buttons auf rot ändern möchten, müssen Sie folgende Zeile hinzufügen:
 
-    @btn-success-bg: #FF0000;
-
+```less
+@btn-success-bg: #FF0000;
+```
 
 ## Sonstige CSS-Änderungen
 

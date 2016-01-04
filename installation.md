@@ -22,11 +22,15 @@ ROXID generiert für Bilder, die für das jeweilige Endgerät optimiert sind.
 Dazu ist es nötig, die `.htaccess` im Hauptverzeichnis Ihres Shops anzupassen.
 Ersetzen Sie in dieser Datei (ungefähr Zeile 46) die Zeile:
 
-    RewriteRule (\.jpe?g|\.gif|\.png)$ getimg.php
+```apacheconf
+RewriteRule (\.jpe?g|\.gif|\.png)$ getimg.php
+```
 
 durch
 
-    RewriteRule (\.jpe?g|\.gif|\.png)$ modules/roxid/utils/roxid_getimg.php
+```apacheconf
+RewriteRule (\.jpe?g|\.gif|\.png)$ modules/roxid/utils/roxid_getimg.php
+```
 
 Es kann sein, dass Sie die Dateiberechtigungen der Datei erst ändern müssen. Setzen Sie diese dafür vor dem Bearbeiten auf *777* und nach dem Bearbeiten zurück auf *444*.
 

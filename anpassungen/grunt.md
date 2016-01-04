@@ -9,7 +9,9 @@ Installieren Sie [Grunt](http://gruntjs.com) auf Ihrem System. Wie das geht, ent
 
 Zur Installation aller benötigten Grunt-Plugins führen Sie einfach den Befehl
 
-    npm install
+```bash
+npm install
+```
 
 im Hauptverzeichnis Ihres Shops aus. Grunt ist jetzt einsatzbereit.
 
@@ -18,7 +20,9 @@ im Hauptverzeichnis Ihres Shops aus. Grunt ist jetzt einsatzbereit.
 
 Führen Sie den Befehl
 
-    grunt
+```bash
+grunt
+```
 
 im Hauptverzeichnis Ihres Shops aus.
 
