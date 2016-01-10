@@ -26,4 +26,4 @@ In ROXID *v3.0* wurden eine Reihe neue Farbschemata hinzugefügt. Die drei bishe
 * `orange` &rarr; `united`
 * `white` &rarr; `journal`
 
-Wenn Sie Änderungen mit LESS vorgenommen haben, muss die Variable `@colortheme` wie unter [Anpassungen](../anpassungen.md) beschrieben, entsprechend geändert werden.
+Wenn Sie Änderungen mit LESS vorgenommen haben, muss die Variable `@colortheme` wie unter [Anpassungen](../anpassungen/anpassungen.md) beschrieben, entsprechend geändert werden.

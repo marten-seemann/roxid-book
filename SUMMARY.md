@@ -2,12 +2,12 @@
 
 * [Einführung](README.md)
 
-* [Installation](installation.md)
+* [Installation](installation/installation.md)
   * [Troubleshooting](installation/troubleshooting.md)
-* [Update](update.md)
+* [Update](update/update.md)
   * [Update auf v3.0](update/update_auf_v3.0.md)
 * [Einstellungen](einstellungen.md)
-* [Anpassungen](anpassungen.md)
+* [Anpassungen](anpassungen/anpassungen.md)
   * [LESS kompilieren: Grunt](anpassungen/grunt.md)
   * [LESS kompilieren: integrierter LESS Compiler](anpassungen/asset_compiler.md)
   * [Anpassen der Icons](anpassungen/icons.md)

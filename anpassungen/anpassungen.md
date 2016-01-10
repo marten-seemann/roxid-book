@@ -44,8 +44,8 @@ Die komprimierte Datei wird im Produktivmodus des Shops (einstellbar im Backend 
 
 Zur automatisierten Kompilierung haben Sie zwei Möglichkeiten:
 
-* [Verwendung von Grunt](anpassungen/grunt.md) (empfohlen)
-* [Verwendung des integrierten LESS-Compilers](anpassungen/asset_compiler.md) (*deprecated*)
+* [Verwendung von Grunt](grunt.md) (empfohlen)
+* [Verwendung des integrierten LESS-Compilers](asset_compiler.md) (*deprecated*)
 
 
 ## Anpassung des Farbschemas

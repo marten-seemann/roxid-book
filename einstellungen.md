@@ -1,6 +1,6 @@
 # Theme-Einstellungen
 
-ROXID bietet zahlreiche Konfigurations-Optionen im Backend, mit denen Sie komplett ohne Programmierkenntnisse Funktionalität und Erscheinungsbild des Templates anpassen können.
+ROXID bietet zahlreiche Konfigurations-Optionen im Backend, mit denen Sie komplett ohne Programmierkenntnisse die Funktionalität und Erscheinungsbild des Templates anpassen können.
 
 Die Konfigurationsoptionen finden Sie im ROXID-Theme unter `Erweiterungen → Themes` im Tab `Einstellungen` (dies gilt auch, wenn Sie das Child-Theme aktiviert haben).
 

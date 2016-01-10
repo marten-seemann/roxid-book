@@ -11,7 +11,7 @@ Den Link zum LESS-Compiler finden Sie unter `Erweiterungen -> Themes -> ROXID mo
 
 ## Funktionsweise
 
-Der LESS-Compiler übersetzt die LESS-Dateien in CSS-Code, wie unter [Anpassungen](../anpassungen.md) beschrieben. Auf den kompilierten CSS-Code wird dann der Autoprefixer angewendet. Die CSS-Dateien werden dann für den Produktiv-Modus noch komprimiert.
+Der LESS-Compiler übersetzt die LESS-Dateien in CSS-Code, wie unter [Anpassungen](anpassungen.md) beschrieben. Auf den kompilierten CSS-Code wird dann der Autoprefixer angewendet. Die CSS-Dateien werden dann für den Produktiv-Modus noch komprimiert.
 
 Beim Aufruf des LESS-Compilers werden die LESS-Dateien vom Server in Ihren Browser geladen, vom Browser kompiliert und der Autoprefixer wird angewendet, der resultierende CSS-Code wird dann per AJAX zurück an den Server gesendet. Dort wird dieser komprimiert und abgespeichert.
 

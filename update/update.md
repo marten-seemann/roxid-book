@@ -4,7 +4,7 @@
 
 Es ist zu empfehlen, ein ROXID-Update zuerst auf Ihrem Testsystem durchzuführen, bevor Sie es in Ihren produktiven Shop einspielen. Dies gilt umso mehr, wenn Sie Änderungen an Ihrem ROXID vorgenommen haben.
 
-**Achtung**: Für das [Update auf ROXID v3.0](./update/Update_auf_v3.0.html) müssen einige zusätzliche Kleinigkeiten beachtet werden.
+**Achtung**: Für das [Update auf ROXID v3.0](update_auf_v3.0.md) müssen einige zusätzliche Kleinigkeiten beachtet werden.
 
 
 ## Dateien
