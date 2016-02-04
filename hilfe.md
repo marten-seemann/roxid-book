@@ -6,6 +6,6 @@ Auch für Template-Anpassungen, kleine wie große, stehen wir Ihnen gerne zur Ve
 
 Email: **<info@oxid-responsive.com>**
 
-Telefon: **(+49) 089 51664594**
+Telefon: **(+49) 02204 7394732**
 
 Kontaktformular: **https://shop.oxid-responsive.com/kontakt/**
