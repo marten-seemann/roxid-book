@@ -2,6 +2,7 @@
 
 * [Einführung](README.md)
 
+* [Systemvoraussetzungen](system_requirements.md)
 * [Installation](installation/installation.md)
   * [Troubleshooting](installation/troubleshooting.md)
 * [Update](update/update.md)
