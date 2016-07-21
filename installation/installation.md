@@ -52,4 +52,3 @@ ROXID ist nun fertig installiert. Zur Inbetriebnahme aktivieren brauchen Sie es 
 
 * Aktivieren Sie das Template unter `Erweiterungen > Themes`.
 * Aktivieren Sie das ROXID-Helfermodul unter `Erweiterungen > Module`.
-* Aktivieren Sie, falls gewünscht, den LayerSlider für die Startseite Ihres Shops unter `Erweiterungen > Module`.
