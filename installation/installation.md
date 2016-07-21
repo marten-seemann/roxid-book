@@ -24,6 +24,8 @@ ROXID benötigt für die Konfigurationsoptionen einige zusätzliche Datenbankein
 Klicken Sie dann auf `Update starten` und warten Sie, bis alle SQL-Abfragen abgeschlossen wurden.
 Klicken Sie danach einmal auf `VIEWS jetzt updaten` auf derselben Seite.
 
+Falls Sie eine OXID EE betreiben, beachten Sie bitte folgenden [Hinweis](ee.md).
+
 
 ## .htaccess-Anpassungen
 

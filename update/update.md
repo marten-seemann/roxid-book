@@ -20,6 +20,8 @@ Die neue Version von ROXID benötigt evtl. zusätzliche Datenbankeinträge. Gehe
 
 Wenn Sie in der Vergangenheit ein Upgrade ausgelassen haben, führen Sie bitte alle nötigen SQL-Updates nacheinander durch .
 
+Falls Sie eine OXID EE betreiben, beachten Sie bitte folgenden [Hinweis](../installation/ee.md).
+
 
 ### Beispiel
 

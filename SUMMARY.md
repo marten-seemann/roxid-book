@@ -5,6 +5,7 @@
 * [Systemvoraussetzungen](system_requirements.md)
 * [Installation](installation/installation.md)
   * [Troubleshooting](installation/troubleshooting.md)
+  * [Hinweis für OXID EE](installation/ee.md)
 * [Update](update/update.md)
   * [Update auf v3.0](update/update_auf_v3.0.md)
 * [Einstellungen](einstellungen.md)
