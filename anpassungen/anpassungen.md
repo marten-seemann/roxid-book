@@ -50,7 +50,7 @@ Zur automatisierten Kompilierung haben Sie zwei Möglichkeiten:
 
 ## Anpassung des Farbschemas
 
-Das Farbschema können Sie am einfachsten über die [LESS-Variablen von Twitter Bootstrap](http://getbootstrap.com/customize/#less-variables) anpassen. Fügen Sie die Variablen, die Sie überschreiben möchten, einfach der `out/roxid_mod/src/css/bootstrap_own_variables.less` hinzu. Die komplette Liste der Bootstrap-Variablen finden Sie in der Variablen-Datei von Bootstrap (`out/roxidx/src/css/bootstrap/less/variables.less`).
+Das Farbschema können Sie am einfachsten über die [LESS-Variablen von Twitter Bootstrap](http://getbootstrap.com/customize/#less-variables) anpassen. Fügen Sie die Variablen, die Sie überschreiben möchten, einfach der `out/roxid_mod/src/css/bootstrap_own_variables.less` hinzu. Die komplette Liste der Bootstrap-Variablen finden Sie in der Variablen-Datei von Bootstrap (`out/roxid/bower_components/bootstrap/less/variables.less`).
 
 **Beispiel**: Wenn Sie die Farbe der *In den Warenkorb*-Buttons auf rot ändern möchten, müssen Sie folgende Zeile hinzufügen:
 
