@@ -14,4 +14,6 @@
   * [LESS kompilieren: integrierter LESS Compiler](anpassungen/asset_compiler.md)
   * [Anpassen der Icons](anpassungen/icons.md)
   * [Troubleshooting](anpassungen/troubleshooting.md)
+* Diverses
+  * [Paypal Plus Modul](diverses/paypalplus.md)
 * [Hilfe & Support](hilfe.md)
