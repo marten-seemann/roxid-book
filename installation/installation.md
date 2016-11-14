@@ -34,13 +34,13 @@ Dazu ist es nötig, die `.htaccess` im Hauptverzeichnis Ihres Shops anzupassen.
 Ersetzen Sie in dieser Datei (ungefähr Zeile 46) die Zeile:
 
 ```apacheconf
-RewriteRule (\.jpe?g|\.gif|\.png)$ getimg.php
+RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ getimg.php
 ```
 
 durch
 
 ```apacheconf
-RewriteRule (\.jpe?g|\.gif|\.png)$ modules/roxid/utils/roxid_getimg.php
+RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ modules/roxid/utils/roxid_getimg.php
 ```
 
 Es kann sein, dass Sie die Dateiberechtigungen der Datei erst ändern müssen. Setzen Sie diese dafür vor dem Bearbeiten auf *777* und nach dem Bearbeiten zurück auf *444*.
