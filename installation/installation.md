@@ -50,3 +50,8 @@ ROXID ist nun fertig installiert. Zur Inbetriebnahme aktivieren brauchen Sie es 
 
 * Aktivieren Sie das Template unter `Erweiterungen > Themes`.
 * Aktivieren Sie das ROXID-Helfermodul unter `Erweiterungen > Module`.
+
+## Hinweis bzgl. mmenu
+
+ROXID benutzt [mmenu](https://mmenujs.com/) für die mobile Navigation auf Smartphones. Sie müssen eine [Lizenz erwerben](https://mmenujs.com/download.html), wenn Sie ROXID gewerblich benutzen. Die genauen Lizenzbedingungen finden Sie auf der Webseite von mmenu.
+
