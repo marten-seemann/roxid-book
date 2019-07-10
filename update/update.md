@@ -6,6 +6,8 @@ Es ist zu empfehlen, ein ROXID-Update zuerst auf Ihrem Testsystem durchzuführen
 
 **Achtung**: Für das [Update auf ROXID v3.0](update_auf_v3.0.md) müssen einige zusätzliche Kleinigkeiten beachtet werden.
 
+**Achtung**: Bitte beachten Sie die Hinweise in [Update auf ROXID v4.0](update_auf_v4.0.md). ROXID 4.0 updatet ROXID für OXID 6 updatet.
+
 
 ## Dateien
 
@@ -18,7 +20,7 @@ Kopieren Sie den Ordner `copy_this` direkt in das Hauptverzeichnis Ihres Shops. 
 
 Die neue Version von ROXID benötigt evtl. zusätzliche Datenbankeinträge. Gehen Sie in den Admin-Bereich Ihres Shops und führen Sie dort unter `Service → Tools` die Datei `sql/update-vx-to-vy.sql` aus (über `Durchsuchen` auswählen). Diese Datei enthält alle SQL-Befehle aus, die zum Upgrade von Version v`x` auf v`y` nötig sind.
 
-Wenn Sie in der Vergangenheit ein Upgrade ausgelassen haben, führen Sie bitte alle nötigen SQL-Updates nacheinander durch .
+Wenn Sie in der Vergangenheit ein Upgrade ausgelassen haben, führen Sie bitte alle nötigen SQL-Updates nacheinander durch.
 
 Falls Sie eine OXID EE betreiben, beachten Sie bitte folgenden [Hinweis](../installation/ee.md).
 
