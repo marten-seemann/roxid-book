@@ -1,14 +1,12 @@
 # Installation
 
-Es ist zu empfehlen, ROXID zuerst auf einem Testsystem zu installieren, bevor Sie es produktiv in Ihrem Shop benutzen.
+## ROXID-Helfermodul
 
+ROXID benötigt zur Ausführung das ROXID-Modul. Sie können dieses durch Ausführen des folgenden Befehls installieren:
 
-## Ihre Lizenz
-
-ROXID benötigt den IonCube Loader. Viele Hoster haben diesen schon standardmäßig vorinstalliert, sollte dies nicht der Fall sein, können Sie ihn [hier herunterladen](http://www.ioncube.com/loaders.php).
-
-Ihre Lizenzdatei `license.txt` sollten Sie bereits per Email erhalten haben. Legen Sie diese Datei ins Hauptverzeichnis des Shops.
-
+```bash
+composer require seemannit/roxid
+```
 
 ## zu kopierende Dateien
 
@@ -31,7 +29,7 @@ Falls Sie eine OXID EE betreiben, beachten Sie bitte folgenden [Hinweis](ee.md).
 
 ROXID generiert für Bilder, die für das jeweilige Endgerät optimiert sind.
 Dazu ist es nötig, die `.htaccess` im Hauptverzeichnis Ihres Shops anzupassen.
-Ersetzen Sie in dieser Datei (ungefähr Zeile 46) die Zeile:
+Ersetzen Sie in dieser Datei (ungefähr Zeile 33) die Zeile:
 
 ```apacheconf
 RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ getimg.php
@@ -40,7 +38,7 @@ RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ getimg.php
 durch
 
 ```apacheconf
-RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ modules/roxid/utils/roxid_getimg.php
+RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ modules/seemanntit/roxid/getimg.php
 ```
 
 Es kann sein, dass Sie die Dateiberechtigungen der Datei erst ändern müssen. Setzen Sie diese dafür vor dem Bearbeiten auf *777* und nach dem Bearbeiten zurück auf *444*.
