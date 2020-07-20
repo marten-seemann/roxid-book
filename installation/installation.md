@@ -38,7 +38,7 @@ RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ getimg.php
 durch
 
 ```apacheconf
-RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ modules/seemanntit/roxid/getimg.php
+RewriteRule (\.jpe?g|\.gif|\.png|\.svg)$ modules/seemannit/roxid/getimg.php
 ```
 
 Es kann sein, dass Sie die Dateiberechtigungen der Datei erst ändern müssen. Setzen Sie diese dafür vor dem Bearbeiten auf *777* und nach dem Bearbeiten zurück auf *444*.
